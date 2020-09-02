@@ -19,7 +19,7 @@ class School
     if roster[level] == nil #if roster does not have this level 
       roster[level] = [student] #then add the level to the roster with student
     else 
-        rooster[level] << student
+        roster[level] << student
       
     end
     roster
