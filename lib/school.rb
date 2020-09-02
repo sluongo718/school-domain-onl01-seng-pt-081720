@@ -20,8 +20,9 @@ class School
       roster[level] = [student] #then add the level to the roster with student
     else
     end
+    roster
   end
-  roster
+  
   
 end
 
