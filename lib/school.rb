@@ -20,7 +20,7 @@ class School
       roster[level] = [student] #then add the level to the roster with student
     else 
         rooster[level] << student
-      binding.pry
+      
     end
     roster
   end
