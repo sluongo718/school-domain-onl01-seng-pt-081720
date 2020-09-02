@@ -19,7 +19,7 @@ class School
     if roster[level] == nil #if roster does not have this level 
       roster[level] = [student] #then add the level to the roster with student
     else 
-        rooster
+        rooster[level] << student
       binding.pry
     end
     roster
@@ -27,4 +27,7 @@ class School
   
   
 end
+
+
+
 
