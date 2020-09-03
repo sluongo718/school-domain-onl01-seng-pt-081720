@@ -30,7 +30,9 @@ class School
   end
   
   def sort
-  
+    rooster.each do |grade, stu|
+      
+    end
     
   
   end
