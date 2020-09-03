@@ -29,8 +29,8 @@ class School
     roster[student_grade]
   end
   
-  def sort# create a new hash then iterate over roster with .each then access the value 
-  @school.each do |grade, sturdent|
+  def sort(the_school)# create a new hash then iterate over roster with .each then access the value 
+  the_school.each do |grade, sturdent|
     
   end
   
