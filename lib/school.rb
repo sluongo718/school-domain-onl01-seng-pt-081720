@@ -32,9 +32,9 @@ class School
   def sort
     new_hash = {}
     roster.each do |grade, stu|
-      new_hash << grade
+      new_hash << grade.sort
     end
-    new_hash.sort
+    new_hash
   
   end
   
