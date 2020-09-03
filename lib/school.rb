@@ -31,7 +31,7 @@ class School
   
   def sort(skool)
   
-    
+    binding.pry
   
   end
   
